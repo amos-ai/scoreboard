@@ -1,0 +1,50 @@
+body {
+    margin: 100px;
+    
+                                                
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    background-color: #1B244A;
+    padding: 30px 30px ;
+    text-align: center;
+}
+
+.score-board{
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    font-size: 50px;
+    color: red;
+}
+
+button{
+    margin-bottom: 10px;
+    background-color: #1B244A;;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.headline{
+    color: whitesmoke;
+    margin-bottom: 5px;
+}
+
+/*
+.new{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+}
+*/
