@@ -18,30 +18,30 @@ function increment2() {
 }
 
 function increment3() {
-    countOne += 3 
+    countOne += 3
     homeScore.textContent = countOne
 }
 
 function increment10() {
-    countTwo += 1 
+    countTwo += 1
     guestScore.textContent = countTwo
 }
 
 function increment12() {
-    countTwo += 2 
+    countTwo += 2
     guestScore.textContent = countTwo
 }
 
 function increment13() {
-    countTwo += 3 
-   guestScore.textContent = countTwo
+    countTwo += 3
+    guestScore.textContent = countTwo
 }
-/*
-function newgame(){
+/* RESEST GAME */
+
+function newgame() {
     countOne -= countOne
     countTwo -= countTwo
-    
+
     homeScore.textContent = 0
     guestScore.textContent = 0
 }
-*/
